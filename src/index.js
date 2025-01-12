@@ -107,7 +107,7 @@ async function connectToWA() {
         } else if (connection === 'open') {
             if (initialConnection) {
                 console.log(chalk.green("🔰 Connected Successfull Dear ✅"));
-                Matrix.sendMessage(Matrix.user.id, { text: ` *👨‍💻MASTER-MD-V3 IS CONNECTED👨‍💻* ` });
+                Matrix.sendMessage(Matrix.user.id, { text: ` *👨‍💻TRABY-MD IS CONNECTED👨‍💻* ` });
                 initialConnection = false;
             } else {
                 console.log(chalk.blue("♻️ Connection reestablished after restart."));
@@ -146,7 +146,7 @@ async function connectToWA() {
 }
 
 app.get("/", (req, res) => {
-res.send("*MASTER-MD WhatsApp Bot Working successfully..!*");
+res.send("*TRABY-MD WhatsApp Bot Working successfully..!*");
 });
 app.listen(PORT, () => console.log(`Server listening on port http://localhost:${PORT}`));
 setTimeout(() => {
