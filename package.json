@@ -1,13 +1,13 @@
 {
-  "name": "MASTER-MD-V3",
+  "name": "CASPER-XMD",
   "version": "10.8.1",
-  "description": "MASTER-MD latest multi device whatsapp bot",
+  "description": "CASPER-XMD latest multi device whatsapp bot",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
     "start": "pm2 start src/index.js --deep-monitoring --attach --name MASTER-MD-V3",
-    "stop": "pm2 stop MASTER-MD-V3",
-    "restart": "pm2 restart MASTER-MD-V3"
+    "stop": "pm2 stop CASPER-XMD",
+    "restart": "pm2 restart CASPER-XMD"
   },
   "keywords": ["master-md", "whatsapp-bot", "whatsapp md bot"],
   "author": "Sahan Maduwantha",
